@@ -1,0 +1,47 @@
+<div >
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="">Event Registration</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          
+         
+        <!-- <a class="nav-item nav-link"  routerLink="">Event List</a>
+          <a class="nav-item nav-link" routerLink="List">Register</a>
+          <!--<a class="nav-item nav-link" routerLink="Login">Login User</a>
+          <a class="nav-item nav-link" routerLink="Register">Register User</a>
+          <a class="nav-item nav-link" routerLink="UserList">User List</a>
+          <!--<a class="nav-item nav-link" routerLink="Update">Update Restaurant</a>-->
+        </ul>
+      </div>
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-3">
+
+          </div>
+          <div class="col-md-3">
+            
+          </div>
+          <div class="col-md-3">
+            
+          </div>
+          <div class="col-md-3" >
+           <i  (click)="usernameshow()"class="fas fa-user-circle fa-3x" title="click here to show username" style="font-size:20px;color:#ecdede; text-align: end;">&nbsp;&nbsp;{{username1}}</i>&nbsp;&nbsp;<button routerLink="" type="button" (click)="logoutt()" class="btn btn-outline-secondary bt-sm" style="color: white;">Logout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  </div>
+  <div class="container-fluid">
+  
+    <router-outlet></router-outlet>
+    <footer>
+      &copy;2021 All Right Reserved
+    </footer>
+  </div>
+  
+  

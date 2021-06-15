@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <form onsubmit="event.preventDefault()" class="box" [formGroup]="myform" (ngSubmit)="login()">
+                    <h1>Login</h1>
+                    <p class="text-muted"> Please enter your Username and password!</p>
+                     <input ngModel type="text" name="" placeholder="Username" formControlName="username"> 
+                     <input ngModel type="password" name="" placeholder="Password" formControlName="password"> 
+                     
+                      <input type="submit" name="" value="Login" href="#">
+                    <div class="col-md-12">
+                        <ul class="social-network social-circle">
+                            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" class="icoTwitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" class="icoGoogle" title="Google +"><i class="fab fa-google-plus"></i></a></li>
+                            <li><a routerLink="Register" class="icoregister" title="Register"><i class="fa fa-user-circle"></i></a></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <router-outlet></router-outlet>
+    </div>
+</div>

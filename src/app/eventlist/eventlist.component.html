@@ -1,0 +1,67 @@
+<div class="container-fluid">
+    <section class="container-fluid">
+
+        <!-- Default box -->
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Event Details.</h3>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            Event Search:<input type="text" class="form-control" name="eventtopic"
+                                placeholder="Enter Event Topic" [(ngModel)]="eventtopic" (ngModelChange)="search()">
+                        </div>
+                        <div class="col-md-6">
+                            Contact Person Search:<input type="text" class="form-control" name="contactinfo"
+                                placeholder="Enter Event Contact Person name" [(ngModel)]="contactinfo"
+                                (ngModelChange)="contactinfosearch()">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card-body">
+                <table class="table  table-bordered" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th (click)="sort('id')">ID&nbsp;&nbsp;<i class="fa fa-sort"></i></th>
+                            <th (click)="sort('eventtopic')">Event Topic&nbsp;&nbsp;<i class="fa fa-sort"></i></th>
+                            <th (click)="sort('startdate')">Start Date&nbsp;&nbsp;<i class="fa fa-sort"></i></th>
+                            <th (click)="sort('enddate')">End Date&nbsp;&nbsp;<i class="fa fa-sort"></i></th>
+                            <th (click)="sort('place')">Place &nbsp;&nbsp;<i class="fa fa-sort"></i></th>
+                            <th (click)="sort('contactinfo')">Contact Info &nbsp;&nbsp;<i class="fa fa-sort"></i></th>
+                            <th (click)="sort('mobileno')">Mobile Number &nbsp;&nbsp;<i class="fa fa-sort"></i></th>
+                            <th>Action </th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr
+                            *ngFor="let item of eventlist | orderBy: key:revers |paginate: {itemsPerPage:5,currentPage:p};">
+                            <td>{{item.id}}</td>
+                            <td>{{item.eventtopic}}</td>
+                            <td>{{item.startdate | date:'MM-dd-yyyy @ hh:mma' }}</td>
+                            <td>{{item.enddate | date:'MM-dd-yyyy @ hh:mmaa'}}</td>
+                            <td>{{item.place}}</td>
+                            <td>{{item.contactinfo}}</td>
+                            <td>{{item.mobileno}}</td>
+
+
+                            <td><button type="button" [register]="disabled" (click)="disable(item.id)" class="btn btn-success"  routerLink="/register/{{item.id}}">Register</button> </td>
+
+
+
+                        </tr>
+                    </tbody>
+                    
+                </table>
+                <pagination-controls (pageChange)="p=$event"></pagination-controls>
+            </div>
+
+
+        </div>
+
+
+    </section>
+</div>
