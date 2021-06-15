@@ -1,0 +1,142 @@
+{
+  "Eventlist": [
+    {
+      "id": 1,
+      "eventtopic": "keka Intro",
+      "startdate": "06/06/2021 10:00",
+      "enddate": "06/08/2021 13:00",
+      "place": "Nitor Infotech,Pune",
+      "contactinfo": "Ashish",
+      "mobileno": "8956674583"
+    },
+    {
+      "id": 2,
+      "eventtopic": "Java Session",
+      "startdate": "06/07/2021 11:00",
+      "enddate": "06/08/2021 14:00",
+      "place": "Nitor Infotech,Pune",
+      "contactinfo": "Akash",
+      "mobileno": "9056783433"
+    },
+    {
+      "id": 3,
+      "eventtopic": "Python Session",
+      "startdate": "06/11/2021 09:00",
+      "enddate": "06/12/2021 11:00",
+      "place": "Nitor Infotech,Pune",
+      "contactinfo": "Abhishek",
+      "mobileno": "8956674538"
+    },
+    {
+      "id": 4,
+      "eventtopic": "Asp.net Session",
+      "startdate": "06/13/2021 15:00",
+      "enddate": "06/14/2021 17:00",
+      "place": "Nitor Infotech,Pune",
+      "contactinfo": "Raj",
+      "mobileno": "7890674557"
+    },
+    {
+      "id": 5,
+      "eventtopic": "AI and ML Session",
+      "startdate": "06/15/2021 09:00",
+      "enddate": "06/15/2021 11:00",
+      "place": "Nitor Infotech,Pune",
+      "contactinfo": "Rudra",
+      "mobileno": "7890674557"
+    },
+    {
+      "id": 6,
+      "eventtopic": "Angular Session",
+      "startdate": "06/17/2021 12:00",
+      "enddate": "06/18/2021 14:00",
+      "place": "Nitor Infotech,Pune",
+      "contactinfo": "Ravi",
+      "mobileno": "7890674557"
+    },
+    {
+      "id": 7,
+      "eventtopic": "C# Session",
+      "startdate": "06/19/2021 12:00",
+      "enddate": "06/20/2021 14:00",
+      "place": "Nitor Infotech,Pune",
+      "contactinfo": "Saurabh",
+      "mobileno": "7890674557"
+    },
+    {
+      "id": 8,
+      "eventtopic": "Javascript Session",
+      "startdate": "06/21/2021 15:00",
+      "enddate": "06/22/2021 18:00",
+      "place": "Nitor Infotech,Pune",
+      "contactinfo": "Akshay",
+      "mobileno": "7890674557"
+    },
+    {
+      "id": 9,
+      "eventtopic": "ReactJs Session",
+      "startdate": "06/23/2021 08:30",
+      "enddate": "06/24/2021 11:30",
+      "place": "Nitor Infotech,Pune",
+      "contactinfo": "Sanket",
+      "mobileno": "7890674557"
+    }
+  ],
+  "Registeruser": [
+    {
+      "id": 1,
+      "eventtopic": "keka Intro",
+      "Name": "Ashish",
+      "Address": "pune",
+      "adharno": "54647464547",
+      "mobilenumber": "8756789463"
+    },
+    {
+      "Nameofevent": "Python Session",
+      "Name": "Ashish",
+      "Address": "sangamner ",
+      "adharno": 56475647474,
+      "mobilenumber": "7684689364",
+      "id": 20
+    },
+    {
+      "Nameofevent": "Python Session",
+      "Name": "Ram",
+      "Address": "pune ",
+      "adharno": 345364563453,
+      "mobilenumber": "2424235465",
+      "id": 21
+    },
+    {
+      "Nameofevent": "Java Session",
+      "Name": "Harsha ",
+      "Address": "Kolhapur",
+      "adharno": 3435345365,
+      "mobilenumber": "7898588958",
+      "id": 22
+    },
+    {
+      "Nameofevent": "keka Intro",
+      "Name": "Ashish",
+      "Address": "pune",
+      "adharno": 6646546547677,
+      "mobilenumber": "6546546544",
+      "id": 23
+    },
+    {
+      "Nameofevent": "Java Session",
+      "Name": "AM",
+      "Address": "Pune",
+      "adharno": 87876787687,
+      "mobilenumber": "5765765765",
+      "id": 24
+    }
+  ],
+  "login": [
+    {
+      "id": 1,
+      "username": "ashish",
+      "password": "1234"
+    }
+  ]
+}
